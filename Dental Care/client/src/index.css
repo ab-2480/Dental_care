@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Medical Blue Palette - Trustworthy & Clean */
+  --primary: 215 90% 48%; /* A rich medical blue */
+  --primary-foreground: 0 0% 100%;
+  
+  --secondary: 195 85% 95%; /* Very light cyan/blue for backgrounds */
+  --secondary-foreground: 215 90% 35%;
+  
+  --muted: 210 20% 96%;
+  --muted-foreground: 215 20% 45%;
+  
+  --accent: 175 70% 45%; /* Teal accent for success/actions */
+  --accent-foreground: 0 0% 100%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  
+  --background: 0 0% 100%;
+  --foreground: 215 25% 15%;
+  
+  --card: 0 0% 100%;
+  --card-foreground: 215 25% 15%;
+  
+  --popover: 0 0% 100%;
+  --popover-foreground: 215 25% 15%;
+  
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 215 90% 48%;
+  
+  --radius: 0.75rem;
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary/20;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-bold tracking-tight text-slate-900;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300;
+  }
+  
+  .input-field {
+    @apply border-gray-200 bg-gray-50/50 focus:bg-white focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all duration-200 rounded-xl;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

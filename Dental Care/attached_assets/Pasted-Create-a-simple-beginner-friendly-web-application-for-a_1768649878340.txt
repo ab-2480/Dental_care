@@ -1,0 +1,149 @@
+Create a simple beginner-friendly web application for a Dental Clinic
+that supports TWO user roles: Patient and Doctor.
+
+Tech stack:
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js with Express
+- Database: In-memory data or simple JSON files (no complex database)
+
+User roles:
+- Patient
+- Doctor
+
+Login requirement:
+- Separate login pages for Patient and Doctor
+- After login, redirect users to their respective dashboards
+- Role-based access (patients cannot access doctor pages and vice versa)
+
+Pages required:
+
+========================
+PATIENT INTERFACE
+========================
+
+1. Patient Login Page
+- Email
+- Password
+- Login button
+- Link to Patient Register page
+
+2. Patient Register Page
+- Name
+- Email
+- Phone number
+- Password
+- Register button
+
+3. Patient Dashboard (Home Page)
+- Welcome message with patient name
+- Navigation links:
+  - View Doctors
+  - Book Appointment
+  - My Appointments
+  - Profile
+  - Logout
+
+4. Doctor List Page (Patient View)
+- Static list of doctors
+- Each doctor shows:
+  - Name
+  - Speciality
+  - Experience
+  - Button to book appointment
+
+5. Book Appointment Page
+- Select doctor
+- Select date
+- Select time
+- Confirm appointment button
+- Save appointment in backend
+
+6. My Appointments Page
+- List of booked appointments
+- Show doctor name, date, and time
+- Cancel appointment option
+
+7. Patient Profile Page
+- Show patient details
+- Logout button
+
+========================
+DOCTOR INTERFACE
+========================
+
+8. Doctor Login Page
+- Email
+- Password
+- Login button
+
+9. Doctor Dashboard
+- Welcome message with doctor name
+- Navigation links:
+  - Today’s Schedule
+  - Patient Details
+  - Prescriptions
+  - Notifications
+  - Profile
+  - Logout
+
+10. Today’s Schedule Page
+- List of today’s appointments
+- Show:
+  - Patient name
+  - Appointment time
+  - Status
+
+11. Patient Details Page (Doctor View)
+- List of assigned patients
+- View patient details:
+  - Name
+  - Contact number
+  - Appointment time
+
+12. Prescription Page
+- Select patient
+- Enter diagnosis
+- Add medicine name
+- Dosage and duration
+- Save prescription in backend
+
+13. Doctor Notifications Page
+- Show simple notifications:
+  - New appointment booked
+  - Appointment cancelled
+
+14. Doctor Profile Page
+- Doctor name
+- Speciality
+- Experience
+- Logout button
+
+========================
+BACKEND REQUIREMENTS
+========================
+
+- Use Express.js
+- Create separate routes for:
+  - Patient register
+  - Patient login
+  - Doctor login
+  - Book appointment
+  - Get patient appointments
+  - Get doctor appointments
+  - Save prescriptions
+- Store data in arrays or JSON files
+- Use simple role checks to restrict access
+
+========================
+OTHER REQUIREMENTS
+========================
+
+- Simple and clean UI
+- Beginner-friendly code
+- Clear folder structure
+- Add comments explaining each function
+- No advanced frameworks
+- App should run using `npm start`
+- Use sessions or simple role variables to manage login state
+
+Keep everything simple and easy to understand.

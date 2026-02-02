@@ -1,0 +1,62 @@
+[
+  {
+    "username": "doctor1@clinic.com",
+    "password": "password123",
+    "role": "doctor",
+    "name": "Dr. Sarah Smith",
+    "specialty": "Orthodontist",
+    "experience": "10 years",
+    "phone": "555-0101",
+    "id": 1
+  },
+  {
+    "username": "doctor2@clinic.com",
+    "password": "password123",
+    "role": "doctor",
+    "name": "Dr. James Wilson",
+    "specialty": "General Dentist",
+    "experience": "15 years",
+    "phone": "555-0102",
+    "id": 2
+  },
+  {
+    "username": "emilin@gmail.com",
+    "password": "emilin123",
+    "role": "patient",
+    "name": "emilin",
+    "phone": "9865702421",
+    "id": 3,
+    "specialty": null,
+    "experience": null
+  },
+  {
+    "username": "philu@gmail.com",
+    "password": "philu123",
+    "role": "patient",
+    "name": "philu",
+    "phone": "9921864520",
+    "id": 4,
+    "specialty": null,
+    "experience": null
+  },
+  {
+    "username": "alvina@gmail.com",
+    "password": "alvina123",
+    "role": "patient",
+    "name": "alvina",
+    "phone": "9895862030",
+    "id": 5,
+    "specialty": null,
+    "experience": null
+  },
+  {
+    "username": "priyaclara@gmail.com",
+    "password": "priya123",
+    "role": "patient",
+    "name": "priya clara",
+    "phone": "9961872405",
+    "id": 6,
+    "specialty": null,
+    "experience": null
+  }
+]

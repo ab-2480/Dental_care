@@ -1,0 +1,56 @@
+[
+  {
+    "patientId": 3,
+    "doctorId": 1,
+    "date": "2026-01-21",
+    "time": "12:00",
+    "reason": "for thightening the braces.",
+    "id": 1,
+    "status": "scheduled"
+  },
+  {
+    "patientId": 4,
+    "doctorId": 1,
+    "date": "2026-01-19",
+    "time": "15:00",
+    "reason": "for consultation",
+    "id": 2,
+    "status": "scheduled"
+  },
+  {
+    "patientId": 5,
+    "doctorId": 2,
+    "date": "2026-01-19",
+    "time": "16:00",
+    "reason": "TOOTH ACHE",
+    "id": 3,
+    "status": "scheduled"
+  },
+  {
+    "patientId": 6,
+    "doctorId": 2,
+    "date": "2026-01-28",
+    "time": "14:00",
+    "reason": "toothache",
+    "id": 4,
+    "status": "scheduled"
+  },
+  {
+    "patientId": 3,
+    "doctorId": 1,
+    "date": "2026-02-02",
+    "time": "14:00",
+    "reason": "tighten braces",
+    "id": 5,
+    "status": "cancelled"
+  },
+  {
+    "patientId": 4,
+    "doctorId": 2,
+    "date": "2026-02-03",
+    "time": "11:00",
+    "reason": "toothache",
+    "id": 6,
+    "status": "scheduled"
+  }
+]

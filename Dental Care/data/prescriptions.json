@@ -1,0 +1,20 @@
+[
+  {
+    "patientId": 4,
+    "doctorId": 1,
+    "date": "2026-01-19T10:43:45.447Z",
+    "diagnosis": "tooth sensitivity",
+    "medicines": "moxclav",
+    "dosage": "500mg,twice a day",
+    "id": 1
+  },
+  {
+    "patientId": 5,
+    "doctorId": 2,
+    "date": "2026-01-19T10:50:37.599Z",
+    "diagnosis": "TOOTH ACHE",
+    "medicines": "amoxilin",
+    "dosage": "500mg, once a day",
+    "id": 2
+  }
+]
